@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Oswald:wght@700&family=Radley&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display:ital@1&display=swap');
+
+.body{
+    margin: 0;
+}
+.intro{
+    height: 100vh;
+    font-family: 'Radley', serif;
+    background-color:bisque;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.intro-heading{
+    color: brown ;
+    padding-top: 250px;
+    padding-left: 200px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.intro-image{
+    height: 300px;
+    width: 300px;
+    padding-top: 150px;
+    padding-right: 400px
+
+}
+
+.education-introheading{
+    height: 15vh;
+    background-color: bisque;
+    margin:0;
+    align-items: end;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:brown
+}
+
+.education{
+    height: 90vh ;
+    background-color:bisque  ;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+}
+
+.education-course{
+    width: 100vw;
+    height: 40vh;
+    padding:20px;
+    margin: 50px;
+    color:white;
+    background-color: navy;
+    border-radius: 10px;
+    word-spacing: 2px;
+}
+
+.education-image{
+    
+    width:100px;
+    height: 100px;
+}
+
+.education-para{
+    font-size: 15px; 
+    font-family: 'DM Serif Display', serif; 
+    letter-spacing: 1.2px;
+}
+.education-heading{
+    font-family: 'Oswald', sans-serif;
+}
+
+.skills-introheading{
+    color: brown;
+    background-color: bisque;
+    height: 25vh;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: bisque;
+    height: 40vh;
+    margin: 0px;
+}
+
+.skills-contents{
+    list-style-type:circle;
+    padding-left: 20px;
+    background-color: navy;
+    color:white;
+    padding: 20px;
+    margin:20px;
+    border:2px;
+    border-radius: 10px;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+.minor-project-introheading{
+    color:brown;
+    text-align: center;
+    background-color: bisque;
+    margin: 0;
+    height: 15vh;
+    padding-top: 250px;
+    font-family: 'Oswald', sans-serif;
+}
+.minor-project{
+    background-color: bisque;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.minor-project-contents{
+    background: navy;
+    padding:50px;
+    margin: 80px;
+    border: 2px;
+    border-radius: 10px;
+    font-family: 'DM Serif Display', serif;
+}
+.internship-introheading{
+    background-color: bisque;
+    color: brown;
+    margin: 0;
+    text-align: center;
+    height: 15vh;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.internship{
+    color: white;
+    background-color: bisque;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: 'DM Serif Display', serif;
+}
+.internship-contents{
+    background-color: navy;
+    padding: 50px;
+    border:2px;
+    border-radius: 10px;
+    margin:20px;
+    letter-spacing: 1px;
+}
+.certificate{
+    color:white;
+    background-color: navy;
+    word-spacing: 3px;
+}
+.reachout-introheading{
+    background-color: bisque;
+    margin:0;
+    font-family: 'Oswald', sans-serif;
+    color: brown;
+    padding-left: 50px;
+    height:15vh;
+    padding-top:25vh;
+    padding-bottom: 25vh;
+}
+.reachout-introheading1{
+    background-color: bisque;
+    color: navy;
+    margin:0;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-family: 'DM Serif Display', serif;
+}
+.reachout-icon{
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    color: navy;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    font-family: 'DM Serif Display', serif;
+}
+.image{
+    height: 40px;
+    width: 40px;
+    border: 2px solid navy;
+    border-radius: 5px;
+    margin:10px;
+}
+.link{
+    color: navy;
+    background-color: bisque;
+}
+.demo{
+    background-color: bisque;
+    height:20vh;
+}
